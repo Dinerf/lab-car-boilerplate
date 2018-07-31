@@ -1,1 +1,127 @@
-/* Los estilos de tu proyecto */
+#header {
+  height: 9vw;
+}
+.h-2vw {
+  height: 2vw;
+}
+.modal-user {
+  font-size: 10vw;
+}
+.bg-modal {
+  background-color: #08AC9D;
+}
+.bg-taxi {
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: 100%;
+  background-position-y: 93%;
+}
+#taxi-section {
+  height: 51vw;
+}
+h1 {
+  font-size: 2.8vw;
+}
+.txt-logo {
+  font-size: 2vw;
+}
+.txt-btn {
+  font-size: 1.4vw;
+}
+.white-logo {
+  width: 7vw;
+}
+.w-cel {
+  width: 50%; 
+ }
+.img-phone {
+  width: 24vw;
+}
+.lg-fontsize {
+  font-size: 1.62vw;
+}
+.bg-drive {
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-position-y: 52%;
+}
+.bg-fade {
+  background-color: #793e3e88
+}
+.md-fontsize {
+  font-size: 1.3vw;
+}
+iframe {
+  width: 100%;
+}
+.input-class::placeholder {
+  color: white;
+}
+.txt-sm {
+  font-size: 1.1vw;
+}
+.txt-smlr {
+  font-size: 1vw;
+}
+.brand-sm {
+  width: 11vw;
+}
+
+@media (max-width: 575px) {
+  #header {
+    height: 22.5vw;
+  }
+  .hidden-menu {
+    font-size: 2vw;
+  }
+  .h-5vw {
+    height: 5vw;
+  }
+  #taxi-section {
+    height: 100vw;
+  }
+  #start h1 {
+    font-size: 7vw;
+  }
+  .white-logo {
+    width: 12vw;
+  }
+  #scnd-section {
+    height: 108vw;
+  }
+  #scnd-section h1 {
+    font-size: 5vw;
+  }
+  .w-cel {
+    width: 100%; 
+  }
+  .img-phone {
+    width: 55vw;
+  }
+  #trd-section {
+    height: 80vw;
+    background-size: 120%;
+    background-position-x: right;
+  }
+  #frth-section {
+    height: 153vw;
+  }
+  iframe {
+    height: 60vw;
+    width: 85vw;
+  }
+  #footer {
+    height: 87vw;
+  }
+  .absolute {
+    position: absolute;
+    top: 5vw;
+    left: 50vw;
+    width: 15vw;
+  }
+  .txt-lg {
+    font-size: 2.7vw;
+  }
+  .brand-lg {
+    width: 30vw;
+  }
+}
